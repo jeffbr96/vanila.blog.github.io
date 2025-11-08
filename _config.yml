@@ -1,7 +1,7 @@
 title: Your Blog Title
 description: "A short description of your blog."
 url: "https://vanila.blog.github.io" # Ensure this matches your live domain
-baseurl: ""
+baseurl: "/vanila.blog.github.io"
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
