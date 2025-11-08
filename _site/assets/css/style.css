@@ -185,7 +185,7 @@ a:hover {
   top: 0;
   width: 200px; /* Adjust the width of the pillars as needed */
   height: 100%;
-  background-image: url("/assets/images/pillars.jpg");
+  background-image: url(/vanila.blog.github.io/assets/images/pillars.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: none; /* Hide by default */
