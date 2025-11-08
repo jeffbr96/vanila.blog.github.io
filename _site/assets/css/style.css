@@ -1,0 +1,212 @@
+/* Overall Body and Font Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #1a1a1a;
+  background-color: #FFF8E1;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
+  max-width: 740px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* Container for Centering Content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header and Page Titles */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 4.5em;
+  color: #1a1a1a;
+  margin-bottom: 5px;
+}
+
+header p {
+  color: #1a1a1a;
+}
+
+/* Post Listings */
+.post-listing {
+  background-color: rgba(212, 249, 212, 0.75);
+  border: 1px solid #006600;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+  padding: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post-listing:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  background-color: rgba(255, 182, 193, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-content {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.site-header {
+  background-color: #FDF5E6; /* Cornflower blue with 50% opacity */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  margin-top: 4px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.site-footer {
+  background-color: rgba(100, 149, 237, 0.5); /* Cornflower blue with 50% opacity */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  margin-top: 40px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Link and Button Styles */
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+.read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.read-more:hover {
+  background-color: #2980b9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grey {
+  fill: #828282;
+}
+
+.top-line {
+  border-top: 8px solid #000;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.page-footer {
+  text-align: center;
+  margin-top: 40px;
+  background-color: rgba(255, 182, 193, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.post-footer {
+  text-align: center;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.back-button:hover {
+  background-color: #2980b9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer-col-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-col {
+  flex: 1;
+  text-align: center;
+}
+
+.pillar-left, .pillar-right {
+  position: fixed;
+  top: 0;
+  width: 200px; /* Adjust the width of the pillars as needed */
+  height: 100%;
+  background-image: url("/assets/images/pillars.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: none; /* Hide by default */
+}
+
+.pillar-left {
+  left: 0;
+}
+
+.pillar-right {
+  right: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  .pillar-left, .pillar-right {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-08T11:15:51-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your Blog Title</title><subtitle>A short description of your blog.</subtitle><entry><title type="html">Example Post</title><link href="http://localhost:4000/jekyll,/github/2025/11/08/example-post.html" rel="alternate" type="text/html" title="Example Post" /><published>2025-11-08T09:00:00-05:00</published><updated>2025-11-08T09:00:00-05:00</updated><id>http://localhost:4000/jekyll,/github/2025/11/08/example-post</id><content type="html" xml:base="http://localhost:4000/jekyll,/github/2025/11/08/example-post.html"><![CDATA[<h2 id="this-is-an-example-post">This is an Example Post</h2>
+
+<p>This is the body of an example blog post. You can write your content here using Markdown.</p>
+
+<h3 id="markdown-examples">Markdown Examples</h3>
+
+<p>Here are some more examples of what you can do with Markdown:</p>
+
+<ul>
+  <li>Create a blockquote by starting a line with <code class="language-plaintext highlighter-rouge">&gt;</code>.</li>
+  <li>Create a code block by indenting a line with four spaces or by using triple backticks.</li>
+  <li>Create a horizontal rule by using three or more hyphens, asterisks, or underscores.</li>
+</ul>
+
+<p>Happy blogging!</p>]]></content><author><name>Your Name</name></author><category term="jekyll," /><category term="github" /><summary type="html"><![CDATA[This is an example of a blog post.]]></summary></entry><entry><title type="html">How to Use This Blog</title><link href="http://localhost:4000/jekyll,/github/2025/11/08/how-to-use-this-blog.html" rel="alternate" type="text/html" title="How to Use This Blog" /><published>2025-11-08T09:00:00-05:00</published><updated>2025-11-08T09:00:00-05:00</updated><id>http://localhost:4000/jekyll,/github/2025/11/08/how-to-use-this-blog</id><content type="html" xml:base="http://localhost:4000/jekyll,/github/2025/11/08/how-to-use-this-blog.html"><![CDATA[<h2 id="introduction">Introduction</h2>
+
+<p>Welcome to your new blog! This is a simple, clean, and responsive blog template that you can use to share your thoughts with the world. This guide will walk you through the steps to customize and use this blog.</p>
+
+<h3 id="customizing-your-blog">Customizing Your Blog</h3>
+
+<p>To personalize your blog, you need to edit the <code class="language-plaintext highlighter-rouge">_config.yml</code> file. Here’s how:</p>
+
+<ol>
+  <li>Open the <code class="language-plaintext highlighter-rouge">_config.yml</code> file in the root directory of your project.</li>
+  <li>Change the <code class="language-plaintext highlighter-rouge">title</code> to your desired blog title.</li>
+  <li>Change the <code class="language-plaintext highlighter-rouge">description</code> to a short and catchy description of your blog.</li>
+</ol>
+
+<h3 id="creating-new-posts">Creating New Posts</h3>
+
+<p>To create a new blog post, follow these steps:</p>
+
+<ol>
+  <li>Create a new file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory.</li>
+  <li>The filename must follow this format: <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-your-post-title.md</code>.</li>
+  <li>
+    <p>At the beginning of the file, you need to add the following front matter:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post
+title: "Your Post Title"
+author: "Your Name"
+date: YYYY-MM-DD HH:MM:SS -0000
+categories: category1, category2
+background_image: /assets/images/your-image.jpg
+excerpt: "A short summary of your post."
+---
+</code></pre></div>    </div>
+  </li>
+  <li>Write your blog post content using Markdown syntax.</li>
+</ol>
+
+<h3 id="using-markdown">Using Markdown</h3>
+
+<p>Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Here are some of the most common Markdown syntax elements:</p>
+
+<ul>
+  <li><strong>Headings</strong>: Use <code class="language-plaintext highlighter-rouge">#</code> to create headings. The number of <code class="language-plaintext highlighter-rouge">#</code> symbols determines the heading level.</li>
+  <li><strong>Lists</strong>: Use <code class="language-plaintext highlighter-rouge">*</code> or <code class="language-plaintext highlighter-rouge">-</code> for bulleted lists, and numbers for ordered lists.</li>
+  <li><strong>Emphasis</strong>: Use <code class="language-plaintext highlighter-rouge">*</code> or <code class="language-plaintext highlighter-rouge">_</code> for italics and <code class="language-plaintext highlighter-rouge">**</code> or <code class="language-plaintext highlighter-rouge">__</code> for bold.</li>
+  <li><strong>Links</strong>: Use <code class="language-plaintext highlighter-rouge">[link text](URL)</code> to create a hyperlink.</li>
+  <li><strong>Images</strong>: Use <code class="language-plaintext highlighter-rouge">![alt text](image-URL)</code> to embed an image.</li>
+</ul>
+
+<p>That’s it! You are now ready to start blogging. If you have any questions, feel free to open an issue on the <a href="https://github.com/jeffersonbcoutinho/vanila.blog.github.io">GitHub repository</a>.</p>]]></content><author><name>Your Name</name></author><category term="jekyll," /><category term="github" /><summary type="html"><![CDATA[This is a guide on how to use this blog template.]]></summary></entry></feed>
